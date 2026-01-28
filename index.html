@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maksym Kotlin</title>
-    
+    <title>Maksym Kotlin | Web Master</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,37 +23,68 @@
         </div>
     </header>
 
-        <section class="hero" id="home">
+    <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                
                 <div class="hero-text">
-                    <h1>
-                        Hi,<br>
-                        I'm <span class="highlight">Maksym</span><br>
-                        Web Master
-                    </h1>
+                    <h1>Hi,<br>I'm <span class="highlight">Maksym</span><br>Web Master</h1>
                     <p>Creative and passionate about building beautiful digital experiences.</p>
                     <a href="#contact" class="btn btn-primary">Contact Me</a>
                 </div>
-                
                 <div class="hero-image">
                     <svg class="image-mask" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
                         <defs>
                             <clipPath id="circleMask">
-                                <path fill="#FF0066" d="M49.9,-51C56.5,-43.4,47.9,-21.7,42.5,-5.4C37.1,10.8,34.7,21.6,28.2,31.8C21.6,42,10.8,51.6,-0.6,52.2C-12.1,52.9,-24.2,44.6,-35.9,34.4C-47.6,24.2,-58.8,12.1,-64.3,-5.5C-69.8,-23.1,-69.5,-46.2,-57.8,-53.8C-46.2,-61.4,-23.1,-53.5,-0.7,-52.8C21.7,-52.1,43.4,-58.6,49.9,-51Z" transform="translate(200 200) scale(2.7)" />
+                                <path d="M49.9,-51C56.5,-43.4,47.9,-21.7,42.5,-5.4C37.1,10.8,34.7,21.6,28.2,31.8C21.6,42,10.8,51.6,-0.6,52.2C-12.1,52.9,-24.2,44.6,-35.9,34.4C-47.6,24.2,-58.8,12.1,-64.3,-5.5C-69.8,-23.1,-69.5,-46.2,-57.8,-53.8C-46.2,-61.4,-23.1,-53.5,-0.7,-52.8C21.7,-52.1,43.4,-58.6,49.9,-51Z" transform="translate(200 200) scale(2.7)" />
                             </clipPath>
                         </defs>
                         <image href="tvoje-fotka.png" width="400" height="400" clip-path="url(#circleMask)" preserveAspectRatio="xMidYMid slice" />
                     </svg>
                 </div>
-                
             </div>
         </div>
     </section>
 
-    <section id="about" style="height: 100vh; padding: 100px 0; text-align: center;"><h2>About Section</h2></section>
-    <section id="skills" style="height: 100vh; padding: 100px 0; text-align: center;"><h2>Skills Section</h2></section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-animate="animate-fade-in-down">Moje Dovednosti</h2>
+            <p class="section-subtitle" data-animate="animate-fade-in-up">Co umím a na čem pracuji</p>
+            
+            <div class="skills-grid">
+                <div class="skill-card" data-animate="animate-fade-in-up">
+                    <div class="skill-icon">🎨</div>
+                    <h3 class="skill-title">UI/UX Design</h3>
+                    <p class="skill-description">Navrhuju intuitivní a krásná uživatelská rozhraní s ohledem na uživatele.</p>
+                </div>
+                <div class="skill-card" data-animate="animate-fade-in-up">
+                    <div class="skill-icon">💻</div>
+                    <h3 class="skill-title">HTML & CSS</h3>
+                    <p class="skill-description">Tvořím responzivní a sémantické webové stránky pomocí moderních technologií.</p>
+                </div>
+                <div class="skill-card" data-animate="animate-fade-in-up">
+                    <div class="skill-icon">⚙️</div>
+                    <h3 class="skill-title">JavaScript</h3>
+                    <p class="skill-description">Programuji interaktivní prvky a logiku pomocí čistého JS.</p>
+                </div>
+                <div class="skill-card" data-animate="animate-fade-in-up">
+                    <div class="skill-icon">📱</div>
+                    <h3 class="skill-title">Responsive Design</h3>
+                    <p class="skill-description">Zajišťuji, aby stránky fungovaly perfektně na všech zařízeních.</p>
+                </div>
+                <div class="skill-card" data-animate="animate-fade-in-up">
+                    <div class="skill-icon">🚀</div>
+                    <h3 class="skill-title">Performance</h3>
+                    <p class="skill-description">Optimalizuji rychlost načítání a celkový výkon webu.</p>
+                </div>
+                <div class="skill-card" data-animate="animate-fade-in-up">
+                    <div class="skill-icon">🔍</div>
+                    <h3 class="skill-title">SEO</h3>
+                    <p class="skill-description">Pomáhám webům být lépe dohledatelné ve vyhledávačích.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
